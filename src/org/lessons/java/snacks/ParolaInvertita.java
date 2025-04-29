@@ -7,8 +7,8 @@ public class ParolaInvertita {
     public static void main(String[] args) {
 
         // % Chiediamo all'utente la nostra stringa
-            // & prendiamo uno scanner
-            // * salviamo la prossima riga in una stringa
+        // & prendiamo uno scanner
+        // * salviamo la prossima riga in una stringa
         System.out.println("Inserisci una parola");
         Scanner scanner = new Scanner(System.in);
 
@@ -27,6 +27,6 @@ public class ParolaInvertita {
 
         System.out.println(parolaGirata);
         // @ compongo una stringa e la ritorno
-        
+        scanner.close();
     }
 }
